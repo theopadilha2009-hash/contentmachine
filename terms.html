@@ -1,98 +1,210 @@
-<div class="container">
-  <header class="header">
-    <h1> Content Machine</h1>
-    <p>Secure automation platform for social media publishing, workflow execution, and API integrations.</p>
-    <span class="badge">Terms of Service • Last updated: 2026</span>
-  </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Machine - Terms of Service</title>
 
-  <section>
-    <h2>Overview</h2>
-    <p>These Terms of Service govern the use of the Content Machine platform and its related automation, publishing, and integration services.</p>
-    <p>By using this application, users agree to comply with the terms described below.</p>
-  </section>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <section>
-    <h2>Platform Purpose</h2>
-    <p>Content Machine provides workflow automation and social media management tools intended for lawful content publishing, scheduling, integrations, analytics, and operational automation.</p>
-  </section>
+    body {
+      background: #050816;
+      color: #ffffff;
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.7;
+      padding: 60px 20px;
+    }
 
-  <section>
-    <h2>Authorized Use</h2>
-    <p>Users may use the platform only for legitimate and authorized purposes, including:</p>
-    <ul>
-      <li>Social media publishing</li>
-      <li>Workflow automation</li>
-      <li>API integrations</li>
-      <li>Content management</li>
-      <li>Analytics operations</li>
-      <li>Media scheduling</li>
-    </ul>
-    <p>Users must comply with all applicable laws, regulations, and platform-specific policies.</p>
-  </section>
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #0b1220;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 50px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    }
 
-  <section>
-    <h2>Restricted Activities</h2>
-    <p>Users may not use the platform to:</p>
-    <ul>
-      <li>Distribute illegal or harmful content</li>
-      <li>Violate intellectual property rights</li>
-      <li>Perform spam or abusive automation</li>
-      <li>Circumvent platform restrictions</li>
-      <li>Attempt unauthorized system access</li>
-      <li>Abuse APIs or automation systems</li>
-      <li>Publish malicious, deceptive, or fraudulent content</li>
-    </ul>
-  </section>
+    .header {
+      margin-bottom: 70px;
+    }
 
-  <section>
-    <h2>Account Responsibility</h2>
-    <p>Users are solely responsible for:</p>
-    <ul>
-      <li>Connected third-party accounts</li>
-      <li>Published content</li>
-      <li>API permissions granted</li>
-      <li>Security of their credentials</li>
-      <li>Compliance with platform rules</li>
-    </ul>
-    <p>The application administrator is not responsible for user-generated content or misuse of connected services.</p>
-  </section>
+    h1 {
+      font-size: 40px;
+      line-height: 1.2;
+      letter-spacing: 0.5px;
+      margin-bottom: 22px;
+      color: #ffffff;
+    }
 
-  <section>
-    <h2>Third-Party Platforms</h2>
-    <p>Content Machine integrates with external services such as TikTok, Instagram, YouTube, Meta Platforms, Telegram, and Google services.</p>
-    <p>Availability, functionality, and API access may change at any time according to third-party platform policies and limitations.</p>
-  </section>
+    .header p {
+      color: #b7c5d9;
+      font-size: 16px;
+      margin-bottom: 18px;
+    }
 
-  <section>
-    <h2>Service Availability</h2>
-    <p>The platform is provided on an “as is” and “as available” basis without guarantees of uninterrupted operation, permanent API access, or continuous availability.</p>
-  </section>
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      color: #60a5fa;
+      font-size: 13px;
+    }
 
-  <section>
-    <h2>Limitation of Liability</h2>
-    <p>To the maximum extent permitted by law, the platform administrators shall not be liable for:</p>
-    <ul>
-      <li>Data loss</li>
-      <li>Account restrictions</li>
-      <li>API limitations</li>
-      <li>Publishing failures</li>
-      <li>Third-party service interruptions</li>
-      <li>Indirect or consequential damages</li>
-    </ul>
-  </section>
+    section {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 24px;
+      margin-top: 24px;
+    }
 
-  <section>
-    <h2>Termination</h2>
-    <p>Access to the platform may be suspended or terminated if users violate these Terms of Service or misuse the system.</p>
-  </section>
+    h2 {
+      font-size: 26px;
+      margin-bottom: 22px;
+      color: #ffffff;
+      letter-spacing: 0.3px;
+    }
 
-  <section>
-    <h2>Changes to Terms</h2>
-    <p>These terms may be modified periodically without prior notice. Continued use of the platform constitutes acceptance of updated terms.</p>
-  </section>
+    p {
+      font-size: 16px;
+      margin-bottom: 18px;
+      color: #ffffff;
+    }
 
-  <section>
-    <h2>Contact</h2>
-    <p>Questions regarding these Terms of Service may be directed through the official project repository or associated support channels.</p>
-  </section>
-</div>
+    ul {
+      margin: 12px 0 22px 24px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 24px 12px;
+      }
+
+      .container {
+        padding: 30px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🔐 Content Machine</h1>
+      <p>Secure automation platform for social media publishing, workflow execution, and API integrations.</p>
+      <span class="badge">Terms of Service • Last updated: 2026</span>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>These Terms of Service govern the use of the Content Machine platform and its related automation, publishing, and integration services.</p>
+      <p>By using this application, users agree to comply with the terms described below.</p>
+    </section>
+
+    <section>
+      <h2>Platform Purpose</h2>
+      <p>Content Machine provides workflow automation and social media management tools intended for lawful content publishing, scheduling, integrations, analytics, and operational automation.</p>
+    </section>
+
+    <section>
+      <h2>Authorized Use</h2>
+      <p>Users may use the platform only for legitimate and authorized purposes, including:</p>
+      <ul>
+        <li>Social media publishing</li>
+        <li>Workflow automation</li>
+        <li>API integrations</li>
+        <li>Content management</li>
+        <li>Analytics operations</li>
+        <li>Media scheduling</li>
+      </ul>
+      <p>Users must comply with all applicable laws, regulations, and platform-specific policies.</p>
+    </section>
+
+    <section>
+      <h2>Restricted Activities</h2>
+      <p>Users may not use the platform to:</p>
+      <ul>
+        <li>Distribute illegal or harmful content</li>
+        <li>Violate intellectual property rights</li>
+        <li>Perform spam or abusive automation</li>
+        <li>Circumvent platform restrictions</li>
+        <li>Attempt unauthorized system access</li>
+        <li>Abuse APIs or automation systems</li>
+        <li>Publish malicious, deceptive, or fraudulent content</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Account Responsibility</h2>
+      <p>Users are solely responsible for:</p>
+      <ul>
+        <li>Connected third-party accounts</li>
+        <li>Published content</li>
+        <li>API permissions granted</li>
+        <li>Security of their credentials</li>
+        <li>Compliance with platform rules</li>
+      </ul>
+      <p>The application administrator is not responsible for user-generated content or misuse of connected services.</p>
+    </section>
+
+    <section>
+      <h2>Third-Party Platforms</h2>
+      <p>Content Machine integrates with external services such as TikTok, Instagram, YouTube, Meta Platforms, Telegram, and Google services.</p>
+      <p>Availability, functionality, and API access may change at any time according to third-party platform policies and limitations.</p>
+    </section>
+
+    <section>
+      <h2>Service Availability</h2>
+      <p>The platform is provided on an “as is” and “as available” basis without guarantees of uninterrupted operation, permanent API access, or continuous availability.</p>
+    </section>
+
+    <section>
+      <h2>Limitation of Liability</h2>
+      <p>To the maximum extent permitted by law, the platform administrators shall not be liable for:</p>
+      <ul>
+        <li>Data loss</li>
+        <li>Account restrictions</li>
+        <li>API limitations</li>
+        <li>Publishing failures</li>
+        <li>Third-party service interruptions</li>
+        <li>Indirect or consequential damages</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Termination</h2>
+      <p>Access to the platform may be suspended or terminated if users violate these Terms of Service or misuse the system.</p>
+    </section>
+
+    <section>
+      <h2>Changes to Terms</h2>
+      <p>These terms may be modified periodically without prior notice. Continued use of the platform constitutes acceptance of updated terms.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions regarding these Terms of Service may be directed through the official project repository or associated support channels.</p>
+    </section>
+  </div>
+</body>
+</html>
